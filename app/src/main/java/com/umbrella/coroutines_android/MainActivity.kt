@@ -56,6 +56,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun log(text: String) {
-        Log.d("TAG", "${formatter.format(Date())} $text [${Thread.currentThread().name}]")
+        Log.d("CoroutineCanceling", "${formatter.format(Date())} $text [${Thread.currentThread().name}]")
     }
 }
